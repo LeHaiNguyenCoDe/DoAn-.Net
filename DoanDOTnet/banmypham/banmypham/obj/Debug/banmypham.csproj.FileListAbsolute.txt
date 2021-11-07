@@ -1,0 +1,30 @@
+C:\Users\ChienNguyen\Desktop\NguyenMinhChien\DoanDOTnet\banmypham\banmypham\bin\Debug\banmypham.exe.config
+C:\Users\ChienNguyen\Desktop\NguyenMinhChien\DoanDOTnet\banmypham\banmypham\bin\Debug\banmypham.exe
+C:\Users\ChienNguyen\Desktop\NguyenMinhChien\DoanDOTnet\banmypham\banmypham\bin\Debug\banmypham.pdb
+C:\Users\ChienNguyen\Desktop\NguyenMinhChien\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.Properties.Resources.resources
+C:\Users\ChienNguyen\Desktop\NguyenMinhChien\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.QLSP.resources
+C:\Users\ChienNguyen\Desktop\NguyenMinhChien\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.csproj.GenerateResource.Cache
+C:\Users\ChienNguyen\Desktop\NguyenMinhChien\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.exe
+C:\Users\ChienNguyen\Desktop\NguyenMinhChien\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.pdb
+C:\Users\ChienNguyen\Desktop\NguyenMinhChien\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.menu.resources
+C:\Users\ChienNguyen\Desktop\NguyenMinhChien\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.csprojResolveAssemblyReference.cache
+C:\New folder\DoanDOTnet\banmypham\banmypham\bin\Debug\banmypham.exe.config
+C:\New folder\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.exe
+C:\New folder\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.pdb
+C:\New folder\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.csprojResolveAssemblyReference.cache
+C:\New folder\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.menu.resources
+C:\New folder\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.Properties.Resources.resources
+C:\New folder\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.QLSP.resources
+C:\New folder\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.csproj.GenerateResource.Cache
+C:\New folder\DoanDOTnet\banmypham\banmypham\bin\Debug\banmypham.exe
+C:\New folder\DoanDOTnet\banmypham\banmypham\bin\Debug\banmypham.pdb
+C:\New folder\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.QLKH.resources
+C:\New folder\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.QLNSX.resources
+C:\New folder\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.DN.resources
+C:\New folder\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.inhoadon.resources
+C:\New folder\DoanDOTnet\banmypham\banmypham\obj\Debug\RdlCompile.cache
+C:\New folder\DoanDOTnet\banmypham\banmypham\obj\Debug\RdlCompile.compiled
+C:\New folder\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.demkh.resources
+C:\New folder\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.indshd.resources
+C:\New folder\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.indskh.resources
+C:\New folder\DoanDOTnet\banmypham\banmypham\obj\Debug\banmypham.ttsv.resources

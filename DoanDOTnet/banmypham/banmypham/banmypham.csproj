@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BB63BF30-C2CA-4977-91DD-3A8DE2F87599}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>banmypham</RootNamespace>
+    <AssemblyName>banmypham</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="database.cs" />
+    <Compile Include="datadangnhap.cs" />
+    <Compile Include="demkh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="demkh.Designer.cs">
+      <DependentUpon>demkh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DN.Designer.cs">
+      <DependentUpon>DN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dtshoadon.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtshoadon.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="indshd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="indshd.Designer.cs">
+      <DependentUpon>indshd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="indskh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="indskh.Designer.cs">
+      <DependentUpon>indskh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inhoadon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inhoadon.Designer.cs">
+      <DependentUpon>inhoadon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="khachhang.cs" />
+    <Compile Include="Login.cs" />
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nhasanxuart.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLKH.Designer.cs">
+      <DependentUpon>QLKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLNSX.Designer.cs">
+      <DependentUpon>QLNSX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLSP.Designer.cs">
+      <DependentUpon>QLSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QL_MYPHAMDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QL_MYPHAMDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="sanpham.cs" />
+    <Compile Include="ttsv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ttsv.Designer.cs">
+      <DependentUpon>ttsv.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="demkh.rdlc" />
+    <EmbeddedResource Include="demkh.resx">
+      <DependentUpon>demkh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DN.resx">
+      <DependentUpon>DN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="indshd.resx">
+      <DependentUpon>indshd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="indskh.rdlc" />
+    <EmbeddedResource Include="indskh.resx">
+      <DependentUpon>indskh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inhoadon.rdlc" />
+    <EmbeddedResource Include="inhoadon.resx">
+      <DependentUpon>inhoadon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QLKH.resx">
+      <DependentUpon>QLKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLNSX.resx">
+      <DependentUpon>QLNSX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLSP.resx">
+      <DependentUpon>QLSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RP.rdlc" />
+    <EmbeddedResource Include="ttsv.resx">
+      <DependentUpon>ttsv.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="dtshoadon.xsc">
+      <DependentUpon>dtshoadon.xsd</DependentUpon>
+    </None>
+    <None Include="dtshoadon.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtshoadon.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dtshoadon.xss">
+      <DependentUpon>dtshoadon.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="QL_MYPHAMDataSet.xsc">
+      <DependentUpon>QL_MYPHAMDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QL_MYPHAMDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QL_MYPHAMDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QL_MYPHAMDataSet.xss">
+      <DependentUpon>QL_MYPHAMDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="images\119551863_342547853560480_6115493831801703963_n.png" />
+    <Content Include="images\119736491_326092345509441_6060547038213221148_n.jpg" />
+    <Content Include="images\119814888_1088520918211173_7782869925011645605_n.png" />
+    <Content Include="images\119908457_647007099556587_5156031395473804418_n.jpg" />
+    <Content Include="images\hinh-nen-hoa-tuyet-trong-nang_052337129.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
